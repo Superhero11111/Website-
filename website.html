@@ -1,100 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-ul {
-  list-style-type: none;
-  overflow: hidden;
-  margin-top: -8px;
-  margin-left: -8px;
-  margin-right: -8px;
-  background-color: white;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 20px;
-  text-decoration: none;
-  font-family: sans-serif;
-}
-
-li a:hover {
-  background-color: rgb(255, 255, 255);
-}
-
-div {
-    text-align: center;
-    margin-top: 18px;
-    margin-right: 0px;
-}
-img {
-    display: flex;
-    justify-content: space-between;
-    font-family: right;
-    margin-top: 7px;
-    margin-left: 200px;
-    margin-right: 3px;
-}
-.dropbtn {
-  background-color: rgb(110, 110, 110);
-  color: rgb(0, 0, 0);
-  padding: 15px;
-  font-size:15px;
-  border:none;
-  margin-left: 0px;
-  margin-top: 0px;
-}
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-.dropdown-content {
-  display:none;
-  position: absolute;
-  background-color: lightgrey;
-  min-width: 10px;
-  z-index: 1;
-  margin: 0px;
-}
-.dropdown-content a {
-  color: black;
-  padding: 10px 20px;
-  text-decoration:none;
-  display: block;
-}
-.dropdown-content a:hover {background-color: lightgrey;}
-.dropdown:hover .dropdown-content {display:block;}
-.dropdown:hover .dropbtn {background-color:rgb(121, 121, 121);}
-
-</style>
+<link rel="stylesheet" href="website.css">
 </head>
 
-<body style="background-color: black;">
+<body  style="background-color: black;">
 
 <ul>
   <img src="armannsystemslogo.png" alt="logo" style="float: left">
   <li><a href="#stöhrungsmeldungen">Stöhrungsmeldungen</a></li>
-  <div class="dropdown">
-  <button class="dropbtn">//A Shop</button>
+  <li class="dropdown">
+    <a href="#shop">//A Shop</a>
     <div class="dropdown-content">
-     <li><a href="https://www.google.com">Google</a></li>
-     <a href="hjskjhfksjdkj">Ganse</a>
+       <a href="https://www.google.com">Google</a>
+       <a href="hjskjhfksjdkj">Ganse</a>
     </div>
-  </div>
   <li><a href="#news">News</a></li>
   <li><a href="#wiki">Wiki</a></li>
-  <li><a href="#it-systems">IT-Systems</a></li>
-  <li><a href="#unternehmen">Unternehmen</a></li>
+  <li class="dropdown">
+    <a href="#it-systems">IT-Systems</a>
+    <div class="dropdown-content">
+       <a href="#data">Datacenter</a>
+    </div>
+    <li class="dropdown">
+      <a href="#it-support">IT-Support</a>
+      <div class="dropdown-content">
+         <a href="#netzwerke">Netzwerke</a>
+         <a href="#linux">Linux</a>
+      </div>
+  <li class="dropdown">
+    <a href="#unternehmen">Unternehmen</a>
+    <div class="dropdown-content">
+       <a href="#a">//A</a>
   <li><a href="#ihr/konto"><img src="https://th.bing.com/th/id/R.b15541f5211192e39040dbb75cfdae14?rik=AIL4uHYNQnipJw&riu=http%3a%2f%2fclipart-library.com%2fimg%2f1751890.png&ehk=%2bjWZgZARU2CX9I9%2bZTdOMGVu4AxLJ5k9UTUuYq64WK4%3d&risl=&pid=ImgRaw&r=0" style="text-align: center; width:10px; height:15px; margin-top: 0px; margin-left: 0px;"></a></li>
   <li><a href="#betrag"><img src="https://static.vecteezy.com/system/resources/previews/019/787/018/original/shopping-cart-icon-shopping-basket-on-transparent-background-free-png.png" style="width: 27px;height: 17px; margin-left: 0px; margin-top: 0px;"></a></li>
   <div class="serch-container" style="text-align: center;">
-    <input type="text" class="serch-box" placeholder="Suche...">
+    <input type="text" class="serch-box" placeholder="Suche..." style="display:ansolute;">
   </div>
 </ul>
 <img src="https://armann-systems.com/wp-content/uploads/2020/01/armann-systems-logo-single-squar.png" style="width: 300px; height: 300px; margin: center; margin-top: 130px; margin-left: 790px;">
