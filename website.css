@@ -23,10 +23,10 @@ li a, .dropbtn{
 }
 
 li a:hover{
-  background-color: rgb(172, 172, 172);
+  background-color: rgb(255, 255, 255);
 }
-.dropdown:hover .dropbtn {
-  background-color: rgb(110, 110, 110);
+.dropdown:hover {
+  background-color: rgb(255, 255, 255);
 }
 
 div {
@@ -34,15 +34,16 @@ div {
     margin-top: 18px;
     margin-right: 0px;
     float: right;
-    margin-right: 350px;
+    margin-right: 300px;
 }
 img {
     display: flex;
     justify-content: space-between;
     font-family: right;
-    margin-top: 9px;
-    margin-left: 309px;
+    margin-top: -10px;
+    margin-left: 300px;
     margin-right: 3px;
+    margin-bottom: -17px;
 }
 
 li.dropdown {
@@ -412,6 +413,7 @@ div.dropdown-menü11 a {
   z-index: 1;
   margin-top: -3px;
   margin-left: -50px;
+  margin-bottom: 0px;
 }
 .dropdown-content11 a {
   color: black;
@@ -420,7 +422,7 @@ div.dropdown-menü11 a {
   display: block;
   font-weight: bolder;
 }
-.dropdown-content a:hover, .dropdown-content1:hover {background-color: rgb(173, 173, 173);}
+.dropdown-content a:hover, .dropdown-content1:hover {background-color: rgb(255, 255, 255);}
 .dropdown:hover .dropdown-content, .dropdown:hover .dropdown-content1,.dropdown:hover .dropdown-content2, .dropdown:hover .dropdown-content3, .dropdown:hover .dropdown-content4, .dropdown:hover .dropdown-content5, .dropdown:hover .dropdown-content6, .dropdown:hover .dropdown-content7, .dropdown:hover .dropdown-content8, .dropdown:hover .dropdown-content9, .dropdown:hover .dropdown-content10, .dropdown-content:hover div.dropdown-menü, .dropdown-content1:hover div.dropdown-menü1, .dropdown-content3:hover div.dropdown-menü2, .dropdown-content1:hover div.dropdown-menü3, .dropdown-content2:hover div.dropdown-menü4, .dropdown-content5:hover .dropdown-menü5, .dropdown-content6:hover .dropdown-menü6, .dropdown-content7:hover .dropdown-menü7, .dropdown-content8:hover .dropdown-menü8, .dropdown-content9:hover .dropdown-menü9, .dropdown-content10:hover .dropdown-menü10, .dropdown:hover .dropdown-content11, .dropdown-content11:hover .dropdown-menü11{
   display:block;
 }
